@@ -14,8 +14,24 @@
 
 <!-- El codigo HTML inicia aquí -->
 
-
-<img src="<?= $path.$elemento ?>" width="300"><br>
+<div class="item" style="">
+    <div class="card shadow-sm border-0 ">
+      <div class="card-body">
+        <div class="all-product-ico-favoritos" style=""><button class="btn btn-sm btn-link p-0"><i class="material-icons md-18 md-18-a">favorite</i></button></div> 
+        <a href="detalle-producto-tipo1.html" class="">
+          <figure class="product-image">
+          <img src="<?= $path.$elemento ?>" alt="" class="">
+          </figure>
+        </a>
+        <a href="detalle-producto-tipo1.html" class="text-dark mb-1 mt-2 h6 d-block font-h6">Torta arequipe fresa y almendra</a>
+        <h5 class="text-success font-weight-normal mb-0 font-h5">$125.000<sup></sup></h5>
+        <p class="text-secondary small text-mute mb-0">2 Libra</p>
+        <button id="addtocart" class="btn btn-b btn-default button-rounded-36 boton-buy shadow-sm float-bottom-right"><i class="material-icons material-icons-a md-18 md-18-a">shopping_cart</i>
+        <span class="cart-item"></span>
+        </button>
+      </div>
+    </div>
+</div>
 
 
 <!-- El codigo HTML termina aquí -->
