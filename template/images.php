@@ -10,11 +10,12 @@
             // Si es un archivo lo muestra
             if( !is_dir($path.$elemento) ){
                 // Muestro el fichero
-                echo "<br />". $elemento;
+                echo '<img src="' . $path . $elemento . '" width="300px">';
+                echo '<br>';
             }
         }
     }
   }
 
   // Llamamos a la función para que nos muestre el contenido de la carpeta gallery
-  listarArchivos("../images/");
+  listarArchivos("images/");
