@@ -1,5 +1,7 @@
 <?php
 
+  $i = 1;
+
   $path = "images/";
   // Abrimos la carpeta que nos pasan como parámetro
   $dir = opendir($path);
@@ -13,6 +15,8 @@
 ?>
 
 <!-- El codigo HTML inicia aquí -->
+
+<h1><?= $i++ ?></h1>
 
 <div class="item" style="">
     <div class="card shadow-sm border-0 ">
