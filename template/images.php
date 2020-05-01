@@ -1,6 +1,6 @@
 <?php
 
-  $i = 1;
+  $i = 0;
 
   $path = "images/";
   // Abrimos la carpeta que nos pasan como parámetro
