@@ -12,11 +12,11 @@
       // Si es un archivo lo muestra
       if( !is_dir($path.$elemento) ){
         // Muestro el fichero
+        $i++;
 ?>
 
 <!-- El codigo HTML inicia aquí -->
 
-<h1><?= $i++ ?></h1>
 
 <div class="item" style="">
     <div class="card shadow-sm border-0 ">
@@ -45,3 +45,7 @@
     }
   }
 ?>
+
+<script>
+document.getElementById('contador').innerHTML = "<?=$i?>";
+</script>
